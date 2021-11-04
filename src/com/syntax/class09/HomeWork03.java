@@ -16,8 +16,11 @@ public class HomeWork03 {
 		//System.out.println(value.length);
 		
 		for(int i=value.length -1; i>=0; i--) { /*made i= value.length -1 , because total length of the index is 5 , since we assigned value from o to 4 . 
-			                                   so i am getting outbond error . so i am decreasing -1  from the length(i=5-1)*/
+			     
+			                           so i am getting outbond error . so i am decreasing -1  from the length(i=5-1)*/
 			
+			// note: we cannot use enhanced for loop to travel back in any array
+			// for each 
 			System.out.print(value[i]);
 			System.out.println();
 		}

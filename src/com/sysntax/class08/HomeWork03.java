@@ -16,7 +16,8 @@ public class HomeWork03 {
 		 int sumofeven=0;
 		 int sumofoddNum=0;
 		 
-		//  if(StartNum<endNum)
+		
+		 if(StartNum<endNum)
 			 
 			 for(int i=StartNum ;StartNum<=endNum; StartNum++) {
 				 
@@ -32,7 +33,29 @@ public class HomeWork03 {
 		 }
 		 System.out.println("************");
 		 System.out.println("sum of even number" + sumofeven);
-		 System.out.println("sum of even number" + sumofoddNum);
+		 System.out.println("sum of odd number" + sumofoddNum);
+		 
+		 if(StartNum>endNum) {
+			 
+ for(int i=StartNum ;StartNum>=endNum; StartNum--) {
+				 
+				 System.out.println(StartNum);
+			
+				 if(StartNum%2==0) {
+				 
+				 sumofeven +=StartNum; //sumofeven =sumofeven + startnumber;
+			 }else { 
+				 sumofoddNum+=StartNum;
+			 }
+			 
+		 }
+		 System.out.println("************");
+		 System.out.println("sum of even number" + sumofeven);
+		 System.out.println("sum of odd number" + sumofoddNum);
+		 
+			 
+			 
+		 }
 		 
 		 
 	}
